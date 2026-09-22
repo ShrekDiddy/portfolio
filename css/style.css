@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+ 
+html {
+    scroll-behavior: smooth;
+}
+ 
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #d9fbff;
+    color: #183b43;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+}
+ 
+img {
+    max-width: 100%;
+}
+ 
+.site-header {
+    background-color: #65d3cf;
+    padding: 12px 20px 10px;
+    text-align: center;
+}
+ 
+.header-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+ 
+.site-header h1,
+.site-header p {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    color: #222;
+}
+ 
+.site-header h1 {
+    margin-top: 0;
+    margin-bottom: 7px;
+    padding: 2px 45px;
+    font-size: 25px;
+}
+ 
+.site-header p {
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 1px 55px;
+}
+ 
+.site-header .motto {
+    padding: 1px 65px;
+    font-size: 15px;
+}
+ 
+.main-nav {
+    background-color: #9edfe6;
+    border-bottom: 1px solid #8dcbd1;
+}
+ 
+.nav-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+ 
+.main-nav a {
+    min-width: 145px;
+    padding: 8px 14px;
+    border-left: 1px solid #ffffff;
+    color: #183b43;
+    background-color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    transition: background-color 0.25s, color 0.25s;
+}
+ 
+.main-nav a:last-child {
+    border-right: 1px solid #ffffff;
+}
+ 
+.main-nav a:hover {
+    background-color: #20b8c9;
+    color: #ffffff;
+}
+ 
+.main-nav a,
+.main-nav a:last-child {
+        width: 100%;
+        min-width: 0;
+        border-left: 0;
+        border-right: 0;
+        border-bottom: 1px solid #8dcbd1;
+        padding: 6px 10px;
+        font-size: 11px;
+    }
+ 
+    .page {
+        width: 90%;
+        padding-top: 10px;
+    }
+ 
+    .section > h2 {
+        margin-bottom: 6px;
+        padding: 2px 24px;
+        font-size: 11px;
+    }
+ 
+    .about-card {
+        flex-direction: column;
+        gap: 8px;
+        padding: 8px;
+    }
+ 
+    .profile {
+        flex-basis: auto;
+    }
+ 
+    .profile img {
+        width: 95px;
+        height: 78px;
+    }
+ 
+    .contact-card {
+        width: 100%;
+        font-size: 9px;
+    }
+ 
+    .site-footer {
+        font-size: 8px;
+    }
+ 
+    .site-footer p {
+        margin: 0 3px;
+        padding: 1px 12px;
+    }
